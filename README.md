@@ -19,10 +19,11 @@ Mi repositorio personal de pruebas y testeos.
 
 2.- Ten cuidado con:
 
-    2.1- Una vez abierto una proyecto con su repositorio configurado, ¡no lo uses para mandar otros archivos a otro repositorio!
+    2.1- Una vez abierto una proyecto con su repositorio configurado, 
+        ¡no lo uses para mandar otros archivos a otro repositorio!
         Vete al paso 1.2 y sigue los pasos
     
 3.- Links interesantes:
 
-    + [Configuración remota de un git con VSC](https://code.visualstudio.com/docs/editor/versioncontrol)
-    + [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
++ [Configuración remota de un git con VSC](https://code.visualstudio.com/docs/editor/versioncontrol)
++ [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
