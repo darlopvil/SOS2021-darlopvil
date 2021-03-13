@@ -3,6 +3,7 @@
 Mi repositorio personal de pruebas y testeos.
 
 ***Recordatorios personales***
+
 1.- ¿Cómo subir un proyecto desde VSC a github?
 
     1.1- ¿Vas a realizar un commit sobre unos archivos de un repositorio que ya usas?
