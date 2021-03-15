@@ -9,9 +9,9 @@ app.get("/chad", (req, res) => {
     console.log("New request to /chad has arrived");
 });
 
+console.log("hola hola cacerola"); //Guardar Ctrl+S
+
 app.listen(port,()=>{
     console.log("Server ready, listening on port "+ port);
 })
 
-
-//console.log(chad());
