@@ -26,6 +26,11 @@ Mi repositorio personal de pruebas y testeos.
     2.2- Acuérdate de al crear un proyecto, hacer doble carpeta. Esto significa que
         la carpeta en la que creas el workspace es distinta de la que en la que trabajas y por tanto
         subirás al github. WORKSPACE_FOLDER<GITHUB_FOLDER
+
+3.- ¿Qué hacer en las clases con Pablo?
+
+        Todo lo que se haga en las clases de los J lo vas a subir a tu github, así que abre el vscode
+        en la carpeta de tu repositorio. Crea una carpeta, y dentro de ella ya puedes ponterte a codear.
     
 3.- Links interesantes:
 
