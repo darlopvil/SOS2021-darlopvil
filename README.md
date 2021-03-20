@@ -32,7 +32,7 @@ Mi repositorio personal de pruebas y testeos.
         Todo lo que se haga en las clases de los J lo vas a subir a tu github, así que abre el vscode
         en la carpeta de tu repositorio. Crea una carpeta, y dentro de ella ya puedes ponterte a codear.
     
-3.- Links interesantes:
+4.- Links interesantes:
 
 + [Configuración remota de un git con VSC](https://code.visualstudio.com/docs/editor/versioncontrol)
 + [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
