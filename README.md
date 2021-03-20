@@ -23,6 +23,9 @@ Mi repositorio personal de pruebas y testeos.
     2.1- Una vez abierto una proyecto con su repositorio configurado, 
         ¡no lo uses para mandar otros archivos a otro repositorio!
         Vete al paso 1.2 y sigue los pasos
+    2.2- Acuérdate de al crear un proyecto, hacer doble carpeta. Esto significa que
+        la carpeta en la que creas el workspace es distinta de la que en la que trabajas y por tanto
+        subirás al github. WORKSPACE_FOLDER<GITHUB_FOLDER
     
 3.- Links interesantes:
 
