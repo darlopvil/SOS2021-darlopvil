@@ -1,7 +1,7 @@
 # SOS2021-darlopvil
 
 
-![Si ves esto es porque no ha cargado la foto](https://raw.githubusercontent.com/darlopvil/SOS2021-darlopvil/main/studying.png)
+![Si ves esto es porque no ha cargado la foto](https://raw.githubusercontent.com/darlopvil/SOS2021-darlopvil/main/assets/studying.png)
 
 
 Mi repositorio personal de pruebas y testeos.
