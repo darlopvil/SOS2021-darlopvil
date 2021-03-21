@@ -33,7 +33,7 @@ app.get("/hello", (req, res) => {
 });
 
 //Acceso especial heroku edition
-app.get("/info/air_rutes",(req, res)=>{
+app.get("/info/air_routes",(req, res)=>{
 
     res.send(`<!DOCTYPE html>
     <html>
