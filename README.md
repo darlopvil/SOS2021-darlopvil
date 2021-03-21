@@ -39,9 +39,11 @@ Mi repositorio personal de pruebas y testeos.
 4.- Pasos para subir código a HEROKU
 
     4.1- Si es para crear un nuevo enlace de heroku:
-        4.1.1- Abre tu vscode en una nueva ventana, carga la carpeta en la que esté alojado localmente tu repo.
+        4.1.1- Abre tu vscode en una nueva ventana, carga la carpeta en la que esté alojado localmente 
+        tu repositorio
         4.1.2- Haz los cambios que veas oportunos (commit, push, etc)
-        4.1.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas con "ls"
+        4.1.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas 
+        con "ls"
         4.1.4- Para montar una carpeta proxima en tu ruta usa "cd ./nombreCarpeta"
         4.1.5- git init
         4.1.6- git add .
@@ -53,9 +55,11 @@ Mi repositorio personal de pruebas y testeos.
         4.1.9.c- git push --set-upstream heroku master
 
     4.2 Si ya tienes hecha una app heroku y quieres subir cambios:
-        4.2.1- Abre tu vscode en una nueva ventana, carga la carpeta en la que esté alojado localmente tu repo.
+        4.2.1- Abre tu vscode en una nueva ventana, carga la carpeta en la que esté alojado localmente 
+        tu repo.
         4.2.2- Haz los cambios que veas oportunos (commit, push, etc)
-        4.2.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas con "ls"
+        4.2.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas 
+        con "ls"
         4.2.4- Para montar una carpeta proxima en tu ruta usa "cd ./nombreCarpeta"
         4.2.5- git init
         4.2.6- git add .
