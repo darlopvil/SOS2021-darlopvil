@@ -75,4 +75,5 @@ Mi repositorio personal de pruebas y testeos.
 + [Configuración remota de un git con VSC](https://code.visualstudio.com/docs/editor/versioncontrol)
 + [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
 + [Para ver todas tus apps y borrarlas si necesitas (solo 4!)](https://dashboard.heroku.com/apps)
-+ [Agregar imágenes al reamdme](https://parzibyte.me/blog/2019/01/17/agregar-imagenes-github-readme-otras-paginas/)
++ [Agregar imágenes al readme](https://parzibyte.me/blog/2019/01/17/agregar-imagenes-github-readme-otras-paginas/)
++ [Cammbiar, borrar o introducir un heroku si no te aparece al hacer git remove -v](https://stackoverflow.com/questions/6226846/heroku-how-to-change-a-git-remote-on-heroku)
