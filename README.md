@@ -1,5 +1,9 @@
 # SOS2021-darlopvil
 
+
+![Si ves esto es porque no ha cargado la foto](https://raw.githubusercontent.com/darlopvil/SOS2021-darlopvil/main/studying.png)
+
+
 Mi repositorio personal de pruebas y testeos.
 
 ***Recordatorios personales***
@@ -31,8 +35,39 @@ Mi repositorio personal de pruebas y testeos.
 
         Todo lo que se haga en las clases de los J lo vas a subir a tu github, así que abre el vscode
         en la carpeta de tu repositorio. Crea una carpeta, y dentro de ella ya puedes ponterte a codear.
+
+4.- Pasos para subir código a HEROKU
+
+    4.1- Si es para crear un nuevo enlace de heroku:
+        4.1.1- Abre tu vscode en una nueva ventana, carga la carpeta en la que esté alojado localmente tu repo.
+        4.1.2- Haz los cambios que veas oportunos (commit, push, etc)
+        4.1.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas con "ls"
+        4.1.4- Para montar una carpeta proxima en tu ruta usa "cd ./nombreCarpeta"
+        4.1.5- git init
+        4.1.6- git add .
+        4.1.7- git commit -m "mensaje a commitear"
+        4.1.8- heroku --version
+        4.1.9- heroku login y le das a "log in" en la pestaña del navegador
+        4.1.9.a- heroku create nombre
+        4.1.9.b- git remote -v para ver que está sincronizado tu código con heroku
+        4.1.9.c- git push --set-upstream heroku master
+
+    4.2 Si ya tienes hecha una app heroku y quieres subir cambios:
+        4.2.1- Abre tu vscode en una nueva ventana, carga la carpeta en la que esté alojado localmente tu repo.
+        4.2.2- Haz los cambios que veas oportunos (commit, push, etc)
+        4.2.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas con "ls"
+        4.2.4- Para montar una carpeta proxima en tu ruta usa "cd ./nombreCarpeta"
+        4.2.5- git init
+        4.2.6- git add .
+        4.2.7- git commit -m "mensaje a commitear"
+        4.2.8- heroku --version
+        4.2.9- heroku login y le das a "log in" en la pestaña del navegador
+        4.2.9.a- git remote -v para ver que está sincronizado tu código con heroku
+        4.2.9.b- git push heroku master
+
     
 4.- Links interesantes:
 
 + [Configuración remota de un git con VSC](https://code.visualstudio.com/docs/editor/versioncontrol)
 + [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
++ [Para ver todas tus apps y borrarlas si necesitas (solo 4!)](https://dashboard.heroku.com/apps)
