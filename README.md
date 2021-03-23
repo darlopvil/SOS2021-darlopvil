@@ -24,10 +24,10 @@ Mi repositorio personal de pruebas y testeos.
 
 2.- Ten cuidado con:
 
-    2.1- Una vez abierto una proyecto con su repositorio configurado, 
+    2.1- Una vez abierto un proyecto con su repositorio configurado, 
         ¡no lo uses para mandar otros archivos a otro repositorio!
         Vete al paso 1.2 y sigue los pasos
-    2.2- Acuérdate de al crear un proyecto, hacer doble carpeta. Esto significa que
+    2.2- Acuérdate de, al crear un proyecto, hacer doble carpeta. Esto significa que
         la carpeta en la que creas el workspace es distinta de la que en la que trabajas y por tanto
         subirás al github. WORKSPACE_FOLDER<GITHUB_FOLDER
 
@@ -44,7 +44,7 @@ Mi repositorio personal de pruebas y testeos.
         4.1.2- Haz los cambios que veas oportunos (commit, push, etc)
         4.1.3- Abre el terminal y asegúrate de que estás en el directorio de la carpeta donde trabajas 
         con "ls"
-        4.1.4- Para montar una carpeta proxima en tu ruta usa "cd ./nombreCarpeta"
+        4.1.4- Para montar una carpeta próxima en tu ruta usa "cd ./nombreCarpeta"
         4.1.5- git init
         4.1.6- git add .
         4.1.7- git commit -m "mensaje a commitear"
@@ -76,4 +76,4 @@ Mi repositorio personal de pruebas y testeos.
 + [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
 + [Para ver todas tus apps y borrarlas si necesitas (solo 4!)](https://dashboard.heroku.com/apps)
 + [Agregar imágenes al readme](https://parzibyte.me/blog/2019/01/17/agregar-imagenes-github-readme-otras-paginas/)
-+ [Cammbiar, borrar o introducir un heroku si no te aparece al hacer git remove -v](https://stackoverflow.com/questions/6226846/heroku-how-to-change-a-git-remote-on-heroku)
++ [Cambiar, borrar o introducir un heroku si no te aparece al hacer git remove -v](https://stackoverflow.com/questions/6226846/heroku-how-to-change-a-git-remote-on-heroku)
