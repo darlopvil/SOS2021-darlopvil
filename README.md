@@ -77,3 +77,19 @@ Mi repositorio personal de pruebas y testeos.
 + [Para ver todas tus apps y borrarlas si necesitas (solo 4!)](https://dashboard.heroku.com/apps)
 + [Agregar imágenes al readme](https://parzibyte.me/blog/2019/01/17/agregar-imagenes-github-readme-otras-paginas/)
 + [Cambiar, borrar o introducir un heroku si no te aparece al hacer git remove -v](https://stackoverflow.com/questions/6226846/heroku-how-to-change-a-git-remote-on-heroku)
+
+5.- Comandos útiles
+
+    npm init -y (te crea el package.json con todo por defecto)
+    touch index.js (te crea un js vacío)
+    npm install express body-parser (instalar módulos)
+    node index (te lanza el archivo index)
+
+6.- Miscelánea:
+
+    2 formas de escribir los mismo:
+        console.log(`Server ready at ${PORT}!`);  <---Solo la exclamación al final
+        console.log("Server ready in port" + PORT);
+
+        console.log(`new contact to be added: <${JSON.stringify(newContact,null,2)}>`); <--- Entre <>
+        console.log("new contact added :" + JSON.stringify(newContact,null,2));
