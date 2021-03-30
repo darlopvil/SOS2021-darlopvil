@@ -93,3 +93,6 @@ Mi repositorio personal de pruebas y testeos.
 
         console.log(`new contact to be added: <${JSON.stringify(newContact,null,2)}>`); <--- Entre <>
         console.log("new contact added :" + JSON.stringify(newContact,null,2));
+
+    Para meter un objeto nuevo dentro de una array, hay que seleccionar POST y mandar la petición
+    dentro del "body" + "raw" + "JSON" en postman
