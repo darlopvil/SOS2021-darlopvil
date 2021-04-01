@@ -1,5 +1,11 @@
 //console.log("hola mundo");
 
+/*
+Cambio importante para que funcione la redireccion al .html estatico
+de tu carpeta public cuando accedas a la raiz de la url de heroku. 
+Para ello basta con modificar el nombre de dicho .html como "index.html"
+*/
+
 var express = require("express"); //importado
 var path = require("path"); //por si no te funciona llamarlo con ./recurso
 
@@ -21,11 +27,10 @@ var puerto = (process.env.PORT || 10000); //la aplicacion arranca en el puerto e
 
 /*
 con .use(), partiendo de la raiz del programa, me busca en la carpeta "public"
-lo que sea que se haya pedido como petete.html o pedrito.jpg
-Comentado porque probé a hacer la subida a heroku
-*/
+lo que sea que se haya pedido como petete.html o pedrito.jpg*/
 
-//app.use("/", express.static("./public"));
+app.use("/", express.static("./public"));
+
 
 //Acceso usando GET
 app.get("/hello", (req, res) => {
