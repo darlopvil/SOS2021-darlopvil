@@ -69,6 +69,16 @@ Mi repositorio personal de pruebas y testeos.
         4.2.9.a- git remote -v para ver que está sincronizado tu código con heroku
         4.2.9.b- git push heroku master
 
+5.- Errores al subir cosas a Heroku:
+
+        5.1- Al hacer el push final me salta el error clásico
+             + [Intenta hacer el push "forzado" con -f](https://stackoverflow.com/questions/9794413/failed-to-push-some-refs-to-githeroku-com)
+        
+        5.2- Aunque suba los cambios bien a Heroku, al irme al link me tira un Application Error para que vea el historial con --tails
+
+            Hazlo. Vete al historial con "heroku logs --tail". Y fíjate qué ha fallado. Pueden ser diversas cosas. Te dejo aquí una relacionada
+             [unas sentencias que faltaban en el package.json del proyecto](https://stackoverflow.com/questions/34535253/npm-start-microsoft-jscript-runtime-error-800a138f-object-expected)
+
     
 4.- Links interesantes:
 
