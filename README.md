@@ -73,7 +73,7 @@ Mi repositorio personal de pruebas y testeos.
  
 + [Al hacer el push final me salta el error clásico, intenta hacer el push "forzado" con -f](https://stackoverflow.com/questions/9794413/failed-to-push-some-refs-to-githeroku-com)
         
-[Application Error en Heroku: algo falta en el package.json al probar heroku logs --tail](https://stackoverflow.com/questions/34535253/npm-start-microsoft-jscript-runtime-error-800a138f-object-expected)
++ [Application Error en Heroku: algo falta en el package.json al probar heroku logs --tail](https://stackoverflow.com/questions/34535253/npm-start-microsoft-jscript-runtime-error-800a138f-object-expected)
 
     
 4.- Links interesantes:
