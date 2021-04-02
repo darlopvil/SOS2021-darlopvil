@@ -72,7 +72,7 @@ Mi repositorio personal de pruebas y testeos.
 5.- Errores al subir cosas a Heroku:
 
         5.1- Al hacer el push final me salta el error clásico
- [Intenta hacer el push "forzado" con -f](https://stackoverflow.com/questions/9794413/failed-to-push-some-refs-to-githeroku-com)
+            [Intenta hacer el push "forzado" con -f](https://stackoverflow.com/questions/9794413/failed-to-push-some-refs-to-githeroku-com)
         
         5.2- Aunque suba los cambios bien a Heroku, al irme al link me tira un Application Error para que vea el historial con --tails
 
