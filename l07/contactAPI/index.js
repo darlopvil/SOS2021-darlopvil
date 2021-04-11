@@ -30,7 +30,7 @@ module.exports.register = (app) => {
      });
 
      app.delete(BASE_CONTACT_API_PATH+"/contacts/:contactName", (req,res)=>{
-        var contactName = req.contactName;
+        var contactName = req.params.contactName;
 
         console.log(`contact to be delete: <${contactName}>`);
 

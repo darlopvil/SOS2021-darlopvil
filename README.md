@@ -76,22 +76,25 @@ Mi repositorio personal de pruebas y testeos.
 + [Application Error en Heroku: algo falta en el package.json al probar heroku logs --tail](https://stackoverflow.com/questions/34535253/npm-start-microsoft-jscript-runtime-error-800a138f-object-expected)
 
     
-4.- Links interesantes:
+6.- Links interesantes:
 
 + [Configuración remota de un git con VSC](https://code.visualstudio.com/docs/editor/versioncontrol)
 + [Como borrar el último commit, cuidado, borra el fichero!](https://aprendegit.com/como-deshacer-el-ultimo-commit-en-git/)
 + [Para ver todas tus apps y borrarlas si necesitas (solo 4!)](https://dashboard.heroku.com/apps)
 + [Agregar imágenes al readme](https://parzibyte.me/blog/2019/01/17/agregar-imagenes-github-readme-otras-paginas/)
 + [Cambiar, borrar o introducir un heroku si no te aparece al hacer git remove -v](https://stackoverflow.com/questions/6226846/heroku-how-to-change-a-git-remote-on-heroku)
++ [Tests hechos en el l07 en POSTMAN (mío personal)](https://documenter.getpostman.com/view/14944672/TzCV3jvP#15083b51-61e5-4c38-b33c-9ae1c7d0493f)
 
-5.- Comandos útiles
+7.- Comandos útiles
 
     npm init -y (te crea el package.json con todo por defecto)
     touch index.js (te crea un js vacío)
     npm install express body-parser (instalar módulos)
     node index (te lanza el archivo index)
+    npx newman (te permite ejecutar el paquete newman sin instalarlo)
+    npx newman run rutaDondeEstaElintegration.json (lanzar los tests desde la consola de vscode)
 
-6.- Miscelánea:
+8.- Miscelánea:
 
     2 formas de escribir los mismo:
         console.log(`Server ready at ${PORT}!`);  <---Solo la exclamación al final
