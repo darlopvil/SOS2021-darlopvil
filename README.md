@@ -105,3 +105,23 @@ Mi repositorio personal de pruebas y testeos.
 
     Para meter un objeto nuevo dentro de una array, hay que seleccionar POST y mandar la petición
     dentro del "body" + "raw" + "JSON" en postman
+
+9.- Sobre la práctica l07
+
+    9.1- Crear todo lo pertinente con Postman y exportar la colección (toda la colección se exportará)
+        cuidado con eso. Mejor hacer todas tus pruebas en una nueva y ya exportar el -json
+    9.2- Crear una carpeta en vscode donde vas a meter el .json de postman
+    9.3- De mientras, siempre puedes ver tu colección de postman al darle a "Publish" y en el browser
+         establecer todo como lo quieras y mandarlo. Quédate esa url publicada.
+    9.4- De vuelta en vscode, divide la terminal en 2. Una para ver el server conectado y lo que le pase;
+        y otra para lanzar en consola la coleccion en .json que has integrado en el 9.2
+    9.5- Crear un github pelao (sin readme ni nada). Ahí es donde vas a volcar todo lo que llevas, por lo
+        que necesitas una nueva carpeta y una nueva ventana del vscode dedicada a ello.
+    9.6 Hora de lanzar el github actions en el repo. Para ello simplemente clona el repo en el nuevo vscode
+        (y nueva folder obvio) y mete todo el codigo. Crea también el ci.yaml con todas las especificaciones
+    9.7- Asegurarse de que funciona el github actions cuando haces un push y pasa todo correctamente.
+    9.8- Ahora hay que lanzar todo esto en el heroku. Para ello, crea una nueva app con el name que quieras
+    9.9- En el apartado de "Deploy", linkea tu cuenta de Github e introduce el repo donde está todo esto.
+        Marca de paso la opción "Wait for CI to pass before deploy" para que solo suba las cosas a la app que
+        has hecho en caso de que se haya corrido correctamente en el Github Actions!
+    9.10- Pincha en los deploys automáticos y listo. Recarga la url de la app de Heroku para ver los cambios.
