@@ -2,10 +2,13 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]   #ejecutar esto del actions cada vez que se haga un nuevo push al repo
 
 jobs: 
   integrationTests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  #lanzar los tests de POSTMAN en una maquina virtual de github, en nuestro caso una ubuntu
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2 #libreria de github actions que se llama checkout. Lanza lo q tienes en el ubuntu creado arriba
+      - run: npm install        #instalar en la mv el npm
+      - run: npm start &        #arrancar todo
+      - run: npx newman run tests/integration.json #arranzar automaticamente los tests usando newman
