@@ -40,8 +40,9 @@ app.get(BASE_API_PATH+"/contacts", (req,res)=>{
             console.error("ERROR accessing DB in GET:"+ err);
             res.sendStatus(500);  //INTERNAL SERVER ERROR
         }else{
+            //Esto es para quitar el id en POSTMAN
             var contactsToSend = contactsInDB.map( (c)=>{
-                //We skip the "_id" field
+               
                 return {name: c.name,phone : c.phone};
             })
             res.send(JSON.stringify(contactsToSend,null,2));
@@ -80,7 +81,20 @@ app.post(BASE_API_PATH+"/contacts", (req,res)=>{
  app.delete(BASE_API_PATH+ "/contacts/:name", (req,res)=>{
     var nameToBeDeleted = req.params.name;
 
-    db.remove({name: nameToBeDeleted},{},(err,contactsInDB))
+    db.remove({name: nameToBeDeleted},{},(err,numContactsRemoved)=>{
+
+            if(err){
+                console.error("ERROR deleting DB contacts in DELETE:"+ err);
+                res.sendStatus(500);
+            }else{
+                if(numContactsRemoved==0){
+                    res.sendStatus(404); //NOT FOUND
+                }else{
+                res.sendStatus(200);} //OK
+            }
+
+
+    });
 
  });
 
